@@ -1,0 +1,15 @@
+{
+    "sms-config-id": {
+        "driver": "tencent",
+        "SmsSdkAppid": "sms-sdk-appid",
+        "Sign": "sign",
+        "TemplateID": "template-id",
+        "SecretID": "secret-id",
+        "SecretKey": "secret-key",
+        "ParamSetLut": {
+            "arg1": 0,
+            "arg2": [1, 2],
+            "arg3": 3
+        }
+    }
+}
