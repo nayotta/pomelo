@@ -1,5 +1,5 @@
 {
-    "sms-config-id": {
+    "tencent-sms-config-id": {
         "driver": "tencent",
         "SmsSdkAppid": "sms-sdk-appid",
         "Sign": "sign",
@@ -11,5 +11,12 @@
             "arg2": [1, 2],
             "arg3": 3
         }
+    },
+    "alicloud-sms-config-id": {
+        "driver": "alicloud",
+        "accessKeyId": "access-key-id",
+        "secretAccessKey": "secret-access-key",
+        "SignName": "sign-name",
+        "TemplateCode": "template-code"
     }
 }

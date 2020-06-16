@@ -1,5 +1,6 @@
 const SMS_DRV_FTY = {
-    "tencent": require("./tencent/sms").NewSMSDriver
+    "tencent": require("./tencent/sms").NewSMSDriver,
+    "alicloud": require("./alicloud/sms").NewSMSDriver,
 }
 
 module.exports = {
